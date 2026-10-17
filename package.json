@@ -1,0 +1,23 @@
+{
+  "name": "pustaka-terbuka-unikl",
+  "version": "1.0.0",
+  "description": "Universiti Kuala Lumpur Library (UNIKL) Bibliographic Dataset and Harvester for Pustaka Terbuka.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "validate-inbox": "node tools/validate-inbox.js",
+    "harvest": "node tools/harvesters/unikl/harvester.js",
+    "harvest:sample": "node tools/harvesters/unikl/harvester.js --max-records 10",
+    "harvest:full": "node tools/harvesters/unikl/harvester.js --batch-size 1000 --delay 0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "private": false,
+  "license": "MIT",
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "fast-xml-parser": "^5.11.2"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0",
+  "source_code": "unikl",
+  "source_name": "Universiti Kuala Lumpur Library",
+  "source_base_url": "https://library.unikl.edu.my/",
+  "terms_url": "https://www.unikl.edu.my/",
+  "terms_verified_on": "2026-10-17",
+  "harvester_name": "unikl-koha-harvester",
+  "harvester_version": "1.0.0",
+  "run_id": "2026-10-17T12-28-29Z-chunk-001",
+  "mode": "full",
+  "started_at": "2026-10-17T12:28:45.849Z",
+  "finished_at": "2026-10-17T12:28:45.849Z",
+  "record_count": 190000,
+  "error_count": 0,
+  "status": "complete",
+  "user_agent": "PustakaTerbuka-Harvester/1.0 (+https://github.com/pustaka-terbuka/unikl; contact@pustakaterbuka.org)",
+  "notes": "UNIKL harvest finished. Total: 190000 records."
+}

@@ -1,0 +1,40 @@
+{
+  "manifest_version": "1.0",
+  "source_code": "unikl",
+  "agency_code": "UNIKL",
+  "run_id": "2026-10-17T03-17-42Z",
+  "chunk_index": 1,
+  "total_records": 500,
+  "completed_at": "2026-10-17T03:17:43.949Z",
+  "harvester": {
+    "name": "unikl-koha-harvester",
+    "version": "1.0.0"
+  },
+  "batches": [
+    {
+      "file": "batch_0.xml",
+      "records": 100,
+      "sha256": "31c3719dc7813b0b2007073a57f8e690367dc115f0e3f2713ff3ab0fa1741412"
+    },
+    {
+      "file": "batch_1.xml",
+      "records": 100,
+      "sha256": "c9e47e8e415bf5b740d80038165811979145bc264c01788fcfb28391b8b715df"
+    },
+    {
+      "file": "batch_2.xml",
+      "records": 100,
+      "sha256": "aae217f213fe46cddb91d4f64ebb1d9217d22eb6a554f6888c96f42181b66857"
+    },
+    {
+      "file": "batch_3.xml",
+      "records": 100,
+      "sha256": "2b75dd629ccb2bc39f18fdeeb8728506a7def932c53facd74e926725b1b1da60"
+    },
+    {
+      "file": "batch_4.xml",
+      "records": 100,
+      "sha256": "edb7355bb60eb5ce0bd9488774c1226cc53948b841cffdcc53d1b7688f6299db"
+    }
+  ]
+}
